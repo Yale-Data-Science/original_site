@@ -1,0 +1,8 @@
+safe: false
+source: .
+destination: ./_site
+
+future: true
+lsi: false 
+markdown: kramdown 
+pygments: true

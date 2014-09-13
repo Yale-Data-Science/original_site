@@ -4,7 +4,14 @@ title: data
 ---
 
 <div id="home">
-  <h1>Blog Posts</h1>
+  <h1>About</h1>
+  <ul class="about">
+    We are a group of Yale undergraduates interested in data science and machine learning.<br>
+    We meet weekly to work on projects and data competitions.
+    <br><br>
+  </ul>
+
+  <h1>News</h1>
   <ul class="posts">
     {% for post in site.categories.blog %}
       <li><span class = dates>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>

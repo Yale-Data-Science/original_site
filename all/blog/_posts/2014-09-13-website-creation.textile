@@ -5,6 +5,6 @@ title: Website Creation
 
 h1. {{ page.title }}
 
-p(meta). 13 Mar 2014 - Long Island 
+p(meta). 13 Sept 2014 - New Haven 
 
 This is the Yale Data Science club.
